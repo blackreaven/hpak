@@ -1,0 +1,15 @@
+{
+    "URL": "https://github.com/darkoperator/dnsrecon", 
+    "depScript": "null", 
+    "description": "A powerful DNS enumeration script.", 
+    "dir": "information-gathering/", 
+    "install": "pip2 install -r $PKG_DIR/requirements.txt,ln -s $PKG_DIR/dnsrecon.py $PREFIX/bin/dnsrecon,chmod +x $PREFIX/bin/dnsrecon", 
+    "license": "GPLv2", 
+    "logo": "null", 
+    "package": "dnsrecon", 
+    "remove": "pip2 uninstall -r $PKG_DIR/requirements.txt,rm $PREFIX/bin/dnsrecon,rm -r $PKG_DIR", 
+    "screenshot": "https://i.ytimg.com/vi/YSkthF18Eo0/maxresdefault.jpg", 
+    "source": "https://github.com/darkoperator/dnsrecon/archive/master.zip", 
+    "status": "null", 
+    "version": "0.8.9"
+}

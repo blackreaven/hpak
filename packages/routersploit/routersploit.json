@@ -1,0 +1,15 @@
+{
+    "URL": "https://github.com/reverse-shell/routersploit", 
+    "depScript": "null", 
+    "description": "The Router Exploitation Framework", 
+    "dir": "vulnerability-analysis/", 
+    "install": "ln -s $PKG_DIR/rsf.py $PREFIX/bin/rsf,chmod +x $PREFIX/bin/rsf,pip2 install -r $PKG_DIR/requirements.txt", 
+    "license": "GPLv3", 
+    "logo": "null", 
+    "package": "routersploit", 
+    "remove": "rm $PREFIX/bin/rsf,pip2 uninstall -r $PKG_DIR/requirements.txt, rm -r $PKG_DIR", 
+    "screenshot": "null", 
+    "source": "https://github.com/reverse-shell/routersploit/archive/master.zip", 
+    "status": "null", 
+    "version": "git"
+}

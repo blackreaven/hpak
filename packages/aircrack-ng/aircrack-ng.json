@@ -1,0 +1,15 @@
+{
+    "URL": "https://www.aircrack-ng.org", 
+    "depScript": "yes", 
+    "description": "Aircrack-ng is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured.", 
+    "dir": "wireless-attacks/", 
+    "install": "make -C $PKG_DIR,make -C $PKG_DIR strip,sh $SCRIPTS_DIR/create_links.sh", 
+    "license": "GPLv2", 
+    "logo": "null", 
+    "package": "aircrack-ng", 
+    "remove": "rm -r $PKG_DIR,sh $SCRIPTS_DIR/remove_links.sh", 
+    "screenshot": "https://www.aircrack-ng.org/screenshots/aircrack-ng.gif", 
+    "source": "http://download.aircrack-ng.org/aircrack-ng-1.2-rc4.tar.gz", 
+    "status": "null", 
+    "version": "1.2-RC4"
+}

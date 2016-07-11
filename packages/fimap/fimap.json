@@ -1,0 +1,15 @@
+{
+    "URL": "https://code.google.com/p/fimap/", 
+    "depends": "null", 
+    "description": "fimap is a little python tool which can find, prepare, audit, exploit and even google automaticly for local and remote file inclusion bugs in webapps.", 
+    "dir": "web-applications/", 
+    "install": "ln -s $PKG_DIR/fimap.py $PREFIX/bin/fimap", 
+    "license": "GPLv2", 
+    "logo": "null", 
+    "package": "fimap", 
+    "remove": "rm -r $PKG_DIR,rm $PREFIX/bin/fimap", 
+    "screenshot": "https://i.ytimg.com/vi/2syX1OmI25U/maxresdefault.jpg", 
+    "source": "http://git.kali.org/gitweb/?p=packages/fimap.git;a=snapshot;h=60444cf0ea6892d2a57f564804ff26509eb5cfa4;sf=tgz", 
+    "status": "null", 
+    "version": "1.00"
+}

@@ -1,0 +1,15 @@
+{
+    "URL": "https://github.com/jesparza/peepdf", 
+    "depScript": "null", 
+    "description": "peepdf is a Python tool to explore PDF files in order to find out if the file can be harmful or not. The aim of this tool is to provide all the necessary components that a security researcher could need in a PDF analysis without using 3 or 4 tools to make all the tasks.", 
+    "dir": "forensics/", 
+    "install": "ln -s $PKG_DIR/peepdf.py $PREFIX/bin/peepdf, chmod +x $PREFIX/bin/peepdf", 
+    "license": "GPLv3", 
+    "logo": "null", 
+    "package": "peepdf", 
+    "remove": "rm -r $PKG_DIR, rm $PREFIX/bin/peepdf", 
+    "screenshot": "http://eternal-todo.com/eternal_files/uploads/object30.png", 
+    "source": "http://eternal-todo.com/files/pdf/peepdf/peepdf_0.3.zip", 
+    "status": "null", 
+    "version": "0.3"
+}

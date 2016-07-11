@@ -1,0 +1,15 @@
+{
+    "URL": "https://github.com/epinna/weevely3/", 
+    "description": "Weevely is a stealth PHP web shell that simulate telnet-like connection. It is an essential tool for web application post exploitation.", 
+    "dir": "maintaining-access/", 
+    "install": "pip2 install -r $PKG_DIR/requirements.txt,ln -s $PKG_DIR/weevely.py $PREFIX/bin/weevely,chmod +x $PREFIX/bin/weevely", 
+    "license": "GPLv2", 
+    "logo": "null", 
+    "package": "weevely", 
+    "remove": "pip2 uninstall -y -r $PKG_DIR/requirements.txt,rm -r $PKG_DIR,rm $PREFIX/bin/weevely", 
+    "screenshot": "null", 
+    "source": "https://github.com/epinna/weevely3/archive/v3.3.1.zip", 
+    "status": "null", 
+    "systemDep": "", 
+    "version": "3.3.1"
+}

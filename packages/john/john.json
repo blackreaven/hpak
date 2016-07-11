@@ -1,0 +1,16 @@
+{
+  "package"     : "john",
+  "version"     : "1.8.0-jumbo",
+  "source"      : "http://www.openwall.com/john/j/john-1.8.0-jumbo-1.tar.xz",
+  "description" : "John the Ripper is designed to be both feature-rich and fast. It combines several cracking modes in one program and is fully configurable for your particular needs.",
+  "license"     : "GPLv2",
+  "URL"         : "http://www.openwall.com/john/",
+  "dir"         : "password-attacks/",
+  "depScript"   : "yes",
+  "logo"        : "http://www.openwall.com/john/tshirt1.png",
+  "screenshot"  : "null",
+  "install"     : "cd $PKG_DIR/src/ && ./configure && make",
+  "remove"      : "rm -r $PKG_DIR",
+  "status"      : "null"
+
+}

@@ -1,0 +1,16 @@
+{
+  "package"     : "sslstrip",
+  "version"     : "0.9",
+  "source"      : "https://github.com/moxie0/sslstrip/archive/v0.9-2.tar.gz",
+  "description" : "sslstrip is a MITM tool that implements Moxie Marlinspike's SSL stripping attacks.",
+  "license"     : "GPLv3",
+  "URL"         : "http://www.thoughtcrime.org/software/sslstrip/",
+  "dir"         : "information-gathering/",
+  "depScript"   : "yes",
+  "logo"        : "null",
+  "screenshot"  : "null",
+  "install"     : "pip2 install crypto twisted,ln -s $PKG_DIR/sslstrip.py $PREFIX/bin/sslstrip,chmod +x $PREFIX/bin/sslstrip,sh $SCRIPTS_DIR/patch_python_version.sh",
+  "remove"      : "pip2 uninstall twisted crypto,rm -r $PKG_DIR,rm $PREFIX/bin/sslstrip",
+  "status"      : "null"
+
+}

@@ -1,0 +1,15 @@
+{
+    "URL": "https://sqlmap.org", 
+    "depScript": "null", 
+    "description": "sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.", 
+    "dir": "vulnerability-analysis/", 
+    "install": "ln -s $PKG_DIR/sqlmap.py $PREFIX/bin/sqlmap, chmod +x $PREFIX/bin/sqlmap,sh $SCRIPTS_DIR/patch_python_version.sh", 
+    "license": "GPLv2", 
+    "logo": "null", 
+    "package": "sqlmap", 
+    "remove": "rm -r $PKG_DIR,rm $PREFIX/bin/sqlmap", 
+    "screenshot": "http://sqlmap.org/images/screenshot.png", 
+    "source": "https://github.com/sqlmapproject/sqlmap/archive/master.zip", 
+    "status": "null", 
+    "version": "1.0-#dev"
+}

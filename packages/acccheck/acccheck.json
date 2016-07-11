@@ -1,0 +1,16 @@
+{
+    "URL": "https://labs.portcullis.co.uk/tools/acccheck/", 
+    "description": "The tool is designed as a password dictionary attack tool that targets windows authentication via the SMB protocol. It is really a wrapper script around the \u2018smbclient\u2019 binary, and as a result is dependent on it for its execution.", 
+    "dir": "information-gathering/", 
+    "hpakDep": "", 
+    "install": "ln -s $PKG_DIR/acccheck.pl $PREFIX/bin/acccheck", 
+    "license": "GPLv2", 
+    "logo": "null", 
+    "package": "acccheck", 
+    "remove": "rm -r $PKG_DIR,rm $PREFIX/bin/acccheck", 
+    "screenshot": "null", 
+    "source": "https://labs.portcullis.co.uk/download/acccheck-0-2-1.tar.gz", 
+    "status": "null", 
+    "systemDep": "smbclient", 
+    "version": "0.2.1"
+}

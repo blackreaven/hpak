@@ -1,0 +1,15 @@
+{
+    "URL": "http://tools.kali.org/information-gathering/dnsmap/", 
+    "description": "dnsmap is mainly meant to be used by pentesters during the information gathering/enumeration phase of infrastructure security assessments. During the enumeration stage, the security consultant would typically discover the target company's IP netblocks, domain names, phone numbers, etc ...", 
+    "dir": "information-gathering/", 
+    "install": "make -C $PKG_DIR,ln -s $PKG_DIR/dnsmap /usr/local/bin/dnsmap", 
+    "license": "GPLv2", 
+    "logo": "https://storage.googleapis.com/google-code-archive/v2/code.google.com/dnsmap/logo.png", 
+    "package": "dnsmap", 
+    "remove": "rm -r $PKG_DIR,rm /usr/local/bin/dnsmap", 
+    "screenshot": "https://i.ytimg.com/vi/55ITD0hceio/maxresdefault.jpg", 
+    "source": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dnsmap/dnsmap-0.30.tar.gz", 
+    "depScript": "yes",
+		"status": "null", 
+    "version": "0.30"
+}

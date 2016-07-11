@@ -1,0 +1,14 @@
+{
+    "URL": "https://github.com/lightos/credmap/", 
+    "description": "Credmap is an open source tool that was created to bring awareness to the dangers of credential reuse. It is capable of testing supplied user credentials on several known websites to test if the password has been reused on any of these.", 
+    "dir": "password-attacks/", 
+    "install": "ln -s $PKG_DIR/credmap.py $PREFIX/bin/credmap,chmod +x $PREFIX/bin/credmap", 
+    "license": "MIT", 
+    "logo": "null", 
+    "package": "credmap", 
+    "remove": "rm -r $PKG_DIR,rm $PREFIX/bin/credmap", 
+    "screenshot": "http://www.websec.ca/img/credmap/running.png", 
+    "source": "https://github.com/lightos/credmap/archive/master.zip", 
+    "status": "null", 
+    "version": "git"
+}

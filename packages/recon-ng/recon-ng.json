@@ -1,0 +1,15 @@
+{
+    "URL": "http://recon-ng.com", 
+    "depScript": "null", 
+    "description": "Recon-ng is a full-featured Web Reconnaissance framework written in Python. Complete with independent modules, database interaction, an more...", 
+    "dir": "information-gathering/", 
+    "install": "ln -s $PKG_DIR/recon-ng $PREFIX/bin/recon-ng,pip2 install -r $PKG_DIR/REQUIREMENTS", 
+    "license": "GPLv3", 
+    "logo": "null", 
+    "package": "recon-ng", 
+    "remove": "rm $PREFIX/bin/recon-ng,pip2 uninstall -r $PKG_DIR/REQUIREMENTS, rm -r $PKG_DIR", 
+    "screenshot": "null", 
+    "source": "http://git.kali.org/gitweb/?p=packages/recon-ng.git;a=snapshot;h=224c84c00df3e4ae8119eec3fca926b882bb2979;sf=tgz", 
+    "status": "null", 
+    "version": "4.8.0"
+}

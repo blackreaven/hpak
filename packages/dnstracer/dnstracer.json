@@ -1,0 +1,15 @@
+{
+    "URL": "http://freecode.com/projects/dnstracer", 
+    "depScript": "yes", 
+    "description": "dnstracer determines where a given Domain Name Server (DNS) gets its information from for a given hostname, and follows the chain of DNS servers back to the.", 
+    "dir": "information-gathering/", 
+    "install": "cd $PKG_DIR && ./configure,make -C $PKG_DIR,ln -s $PKG_DIR/dnstracer $PREFIX/bin/dnstracer", 
+    "license": "BSD", 
+    "logo": "null", 
+    "package": "dnstracer", 
+    "remove": "rm -r $PKG_DIR,rm $PREFIX/bin/dnstracer", 
+    "screenshot": "null", 
+    "source": "http://git.kali.org/gitweb/?p=packages/dnstracer.git;a=snapshot;h=HEAD;sf=tgz", 
+    "status": "null", 
+    "version": "1.9"
+}
