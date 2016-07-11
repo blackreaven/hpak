@@ -1,0 +1,85 @@
+/**
+ *
+ * package.css - this is the style for hpak web page display. 
+ *
+ * Written by @Hypsurus (c).
+ *
+ * See 'LICENSE' for details.
+ **/
+
+body {
+  background: #eee;
+  text-align: left;
+}
+
+#packageHeader {
+  margin-top: 5%;
+}
+
+#packageName {
+  color: #333;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#packageVersion {
+  color: #666;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+#packageLogo {
+  width: 100;
+  height: 100; 
+  margin-left: 15%;
+  border: 2px solid #DDD;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+#packageDescription {
+  color: #000;
+  margin-left: 27%;
+  margin-right: 27%;
+  margin-top: 10px;
+}
+
+#installBtn {
+  float: right;
+  margin-right: 20%;
+  margin-top: 2%;
+  width: 150px; 
+  height: 40px;
+}
+
+#thumb {
+  border: 2px solid #000;
+  border-radius: 20px;
+}
+
+#screenshot {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#noScreenshot {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 4%;
+}
+
+#terminal {
+  text-align: center;
+  color: #DDD;
+  font-family: monospace;
+  font-weight: lighter;
+  background-color: #000;
+  border: 2px solid #FFF;
+  width: 240px;
+  height: 25px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  opacity: 0.8;
+}

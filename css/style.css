@@ -1,0 +1,46 @@
+/**
+ * style.css - this is style for the hpak index.html
+ *
+ * Written by @Hypsurus 
+ *
+ * See 'LICENSE' for details.
+ *
+ **/
+
+body {
+  background: #eee;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: black;
+}
+
+#hpakLogo {
+  margin: 7% auto auto;
+  font-family: 'Lobster Two', cursive;
+}
+
+.hpakHeader {
+  text-align: center;
+}
+
+.category {
+  font-family: 'Chewy', cursive;
+  margin-top: 2%;
+}
+
+.category li {
+  list-style-type: none;
+  text-align: center;
+}
+
+#searchBox {
+  width: 510px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: %3;
+}

@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/package.css">
+    <link rel="stylesheet" type="text/css" href="../css/lightbox.css">
+  </head>
+  <body>
+    <div id="packageHeader">
+    <img src="<%= api.logo %>" id="packageLogo"></img>
+      <h3 id="packageName"><%= api.package %></h3>
+       <span class="label label-warning"><%= api.version %></span>
+       <span class="label label-info"><%= api.license %></span>
+       <% if ( api.status == "installed" ) { %>
+        <a href="../index.html"><button id="installBtn" type="button" class="btn btn-info">Back</button></a>
+       <% } else { %>
+        <a href="../index.html"><button id="installBtn" type="button" class="btn btn-info">Back</button></a>
+       <% } %>
+    </div>
+    <div id="packageDescription">
+      <div class="alert alert-success" role="alert">
+        <h4><%= api.description %></h4>
+        </div>
+    </div>
+    <div id="terminal">
+      <p>$ hpak install <%= api.package %></p>
+    </div>  
+    <% if ( api.screenshot != "null" ) { %>
+      <a  id="screenshot" href="<%= api.screenshot %>" data-lightbox="roadtrip">
+        <img id="thumb" src="<%= api.screenshot %>" width="300" height="200">
+      </a>
+      <script src="../js/lightbox-plus-jquery.min.js"></script>
+    <% } else { %>
+      <p id="noScreenshot">No screenshots </p>
+    <% } %>
+  </body>
+</html>
+

@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Hpak - package manager for pentesters.</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+		<a href="https://github.com/Hypsurus/hpak"><img style="position: absolute; top: 0; right: 0; border: 0;" 
+src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+   <div class="jumbotron hpakHeader">
+      <h1 id="hpakLogo">Hpak</h1>
+      <p>Package manager for pentesters.</p>
+      <input type="text" id="searchBox" class="form-control" placeholder="Search package" name="Search">
+      <div class="results">
+        <div class="category">
+          <ul>
+                   <li><a href="packages/acccheck.html"><blockquote class="hidden" >acccheck</blockquote></a></li>
+         <li><a href="packages/aircrack-ng.html"><blockquote class="hidden" >aircrack-ng</blockquote></a></li>
+         <li><a href="packages/credmap.html"><blockquote class="hidden" >credmap</blockquote></a></li>
+         <li><a href="packages/dnsmap.html"><blockquote class="hidden" >dnsmap</blockquote></a></li>
+         <li><a href="packages/dnsrecon.html"><blockquote class="hidden" >dnsrecon</blockquote></a></li>
+         <li><a href="packages/dnstracer.html"><blockquote class="hidden" >dnstracer</blockquote></a></li>
+         <li><a href="packages/fimap.html"><blockquote class="hidden" >fimap</blockquote></a></li>
+         <li><a href="packages/john.html"><blockquote class="hidden" >john</blockquote></a></li>
+         <li><a href="packages/peepdf.html"><blockquote class="hidden" >peepdf</blockquote></a></li>
+         <li><a href="packages/recon-ng.html"><blockquote class="hidden" >recon-ng</blockquote></a></li>
+         <li><a href="packages/routersploit.html"><blockquote class="hidden" >routersploit</blockquote></a></li>
+         <li><a href="packages/sqlmap.html"><blockquote class="hidden" >sqlmap</blockquote></a></li>
+         <li><a href="packages/sslstrip.html"><blockquote class="hidden" >sslstrip</blockquote></a></li>
+         <li><a href="packages/weevely.html"><blockquote class="hidden" >weevely</blockquote></a></li>
+
+        </ul>
+       </div>
+        </blockquote>
+      </div>
+      <script src="js/holmes.js"></script>
+      <script>
+        holmes({
+          input: 'input',
+          find: '.results blockquote',
+          placeholder: 'no results',
+          class: {
+            visible: 'visible',
+            hidden: 'hidden'
+          }
+        });
+      </script>
+    </div>
+  </body>
+</html>
+
