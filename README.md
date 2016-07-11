@@ -60,7 +60,7 @@ Installation
 Create new package
 -------------------------------
 
-Please follow [this](https://github.com/Hypsurus/hpak/wiki/CreatePackage) tutorial in the wiki.
+Please follow [this](https://github.com/Hypsurus/hpak/wiki/Create_Package) tutorial in the wiki.
 
 or read any package in ./packages and see how it works.
 
