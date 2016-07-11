@@ -1,0 +1,15 @@
+{
+    "URL": "WEBSITE HOMEPAGE", 
+    "description": "PACKAGE DESCRIPTION", 
+    "dir": "WHERE TO INSTALL IN /opt/pentest/", 
+    "install": "INSTALL COMMANDS", 
+    "license": "GPLv2", 
+    "logo": "PNG LOGO FOR THE WEB INTERFACE", 
+    "package": "PACKAGE NAME", 
+    "remove": "REMOVE COMMANDS", 
+    "screenshot": "SCREENSHOT FOR THE WEB INTERFACE", 
+    "source": "ARCHIVE URL", 
+    "depScript": "RUN scripts depends value: yes/no",
+		"status": "null <-- LEAVE NULL", 
+    "version": "PACKAGE VERSION"
+}
