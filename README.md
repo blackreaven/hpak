@@ -9,6 +9,9 @@ Web:
 
 ![hpak_web](https://raw.githubusercontent.com/wiki/Hypsurus/hpak/images/hpak_web.png)
 
+#### hpak is under development the core is ready but needs more packages.
+#### Please report bugs! in packages.
+
 About
 ------
 
